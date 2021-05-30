@@ -28,21 +28,22 @@
             <button class="answer__btn btn" id="but3" onclick="reply_click(this.id)"></button>
         </div>
         <div class="start">
-            <button class="btn start__btn" onclick="startClick()">Start</button>
+            <button class="start__btn btn" onclick="startClick()">Start</button>
         </div>
         <div class="timer">
             <span id="time">10</span>
         </div>
+        <!-- Show result quiz  -->
+        <div class="notification">
+            <h1>Your Score: <span id="noti__score">0</span> </h1>
+            <button class="notification__btn btn" onclick="timeUp()">OK</button>
+        </div>
+        <!-- Show message notidfy correct or incorrect -->
+        <div class="showMessage">
+            <h3>Correct !!!</h3>
+        </div>
     </div>
-    <!-- Show result quiz  -->
-    <div class="notification">
-        <h1>Your Score: <span id="noti__score">0</span> </h1>
-        <button class="notification__btn btn" onclick="timeUp()">OK</button>
-    </div>
-    <!-- Show message notidfy correct or incorrect -->
-    <div class="showMessage">
-        <h3>Correct !!!</h3>
-    </div>
+
     <!-- Script -->
     <script src="main.js"></script>
 </body>
